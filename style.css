@@ -62,3 +62,18 @@
 .container3 div .thor{
     align-self: end;
 }
+.container4{
+    border: 2px solid rgb(20, 3, 247);
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container4 .box{
+    border: 2px solid rgb(20, 3, 247);
+    height: 75px;
+    width: 400px;
+}
+footer p{
+    text-align: center;
+}
