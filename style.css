@@ -1,41 +1,64 @@
 body{
     min-width: 620px;
 }
+header{
+    background-color: #1f2937;
+}
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-family: sans-serif;
+    align-self: center;
+}
 .navbar{
-    border: 2px solid rgb(20, 3, 247);
     display: flex;
     justify-content: space-between;
     padding: 0 50px 0 50px;
 }
 .navbar ul{
-    border: 2px solid rgb(20, 3, 247);
+    border: 2px solid transparent;
     display: flex;
     list-style-type: none;
 }
 .navbar a{
-    border: 2px solid rgb(20, 3, 247);
+    border: 2px solid transparent;
     text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 .container1{
-    border: 2px solid rgb(20, 3, 247);
+    background-color: #1f2937;
+    border: 2px solid transparent;
     display: flex;
     justify-content: center;
     padding: 50px;
 }
 .container1 .text1{
-    border: 2px solid rgb(28, 218, 59);
+    border: 2px solid transparent;
     width: 300px;
     height: 150px;
     min-width: 300px;
 }
 .container1 .text1 h1{
     margin: 0;
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
 }
 .container1 .text1 p{
     margin: 0;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.text1 button{
+    background-color: #3882f6;
+    border: none;
 }
 .container1 .image{
-    border: 2px solid rgb(20, 3, 247);
+    border: 2px solid transparent;
+    background-color: rgb(127, 127, 133);
+    color: white;
     height: 150px;
     width: 300px;
     min-width: 300px;
@@ -45,7 +68,7 @@ body{
     
 }
 .container2{
-    border: 2px solid rgb(20, 3, 247);
+    border: 2px solid transparent;
     text-align: center;
 }
 .container2 .card{
@@ -55,7 +78,7 @@ body{
     width: 125px;
 }
 .container2 div{
-    border: 2px solid rgb(3, 247, 84);
+    border: 2px solid transparent;
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -66,12 +89,13 @@ body{
     width: 100px;
 }
 .container3{
-    border: 2px solid rgb(20, 3, 247);
+    border: 2px solid transparent;
     display: flex;
     flex-direction:column;
     align-items: center;
     justify-content: center;
     height: 300px;
+    background-color: #e5e7eb;
 }
 .container3 div{
     border: 2px solid rgb(20, 3, 247);
@@ -79,6 +103,11 @@ body{
     width:525px;
     display: flex;
     flex-direction: column;
+}
+.container3 div .quote{
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
 }
 .container3 div .thor{
     align-self: end;
@@ -97,6 +126,7 @@ body{
     display: flex;
     justify-content:space-evenly;
     gap: 20px;
+    background-color: #3882f6;
 }
 .container4 .box .contain1{
     display: flex;
@@ -109,6 +139,17 @@ body{
 .container4 .box .contain2{
     display: flex;
     align-self: center;
+}
+.contain1 p{
+    color: white;
+}
+.contain1 p:nth-of-type(1){
+    font-weight: bold;
+}
+.contain2 button{
+    background-color: #3882f6;
+    color: white;
+    border-color: white;
 }
 footer p{
     text-align: center;
