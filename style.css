@@ -1,5 +1,7 @@
 body{
     min-width: 620px;
+    width: 1440px;
+    height: 1912px;
 }
 header{
     background-color: #1f2937;
@@ -13,13 +15,14 @@ header{
 }
 .navbar{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
     padding: 0 50px 0 50px;
 }
 .navbar ul{
     border: 2px solid transparent;
     display: flex;
     list-style-type: none;
+    gap: 20px;
 }
 .navbar a{
     border: 2px solid transparent;
@@ -32,35 +35,42 @@ header{
     border: 2px solid transparent;
     display: flex;
     justify-content: center;
-    padding: 50px;
+    align-items: center;
+    height: 460px;
 }
 .container1 .text1{
     border: 2px solid transparent;
-    width: 300px;
-    height: 150px;
+    width: 475px;
+    height: 225px;
     min-width: 300px;
 }
 .container1 .text1 h1{
     margin: 0;
     font-size: 48px;
     font-weight: extra-bold;
+    font-family: sans-serif ;
     color: #f9faf8;
 }
 .container1 .text1 p{
     margin: 0;
+    padding-right: 50px;
+    padding-bottom: 20px;
     color: #E5E7EB;
     font-size: 18px;
 }
 .text1 button{
+    padding: 10px 25px 10px 25px;
     background-color: #3882f6;
     border: none;
+    border-radius: 10px;
+    color: white;
 }
 .container1 .image{
     border: 2px solid transparent;
     background-color: rgb(127, 127, 133);
     color: white;
-    height: 150px;
-    width: 300px;
+    height: 225px;
+    width: 475px;
     min-width: 300px;
     display: flex;
     justify-content:space-around;
@@ -70,59 +80,70 @@ header{
 .container2{
     border: 2px solid transparent;
     text-align: center;
+    height: 460px;
+    padding-top: 75px;
 }
 .container2 .card{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 125px;
+    width: 175px;
 }
 .container2 div{
     border: 2px solid transparent;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 15px;
+    font-size: 20px;
 }
 .card .cards{
-    border: 2px solid rgb(20, 3, 247);
-    height: 100px;
-    width: 100px;
+    border: 5px solid #3882f6;
+    border-radius: 15px;
+    height: 150px;
+    width: 150px;
 }
+
 .container3{
     border: 2px solid transparent;
     display: flex;
     flex-direction:column;
     align-items: center;
     justify-content: center;
-    height: 300px;
+    height: 460px;
     background-color: #e5e7eb;
 }
 .container3 div{
-    border: 2px solid rgb(20, 3, 247);
-    height:150px;
-    width:525px;
+    border: 2px solid transparent;
+    height:200px;
+    width:750px;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 .container3 div .quote{
     font-size: 36px;
     color: #1f2937;
     font-style: italic;
+    margin: 0;
 }
 .container3 div .thor{
-    align-self: end;
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    align-self: flex-end;
 }
 .container4{
-    border: 2px solid rgb(20, 3, 247);
-    height: 250px;
+    border: 2px solid transparent;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .container4 .box{
-    border: 2px solid rgb(20, 3, 247);
-    height: 75px;
-    width: 650px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    height: 150px;
+    width: 950px;
     display: flex;
     justify-content:space-evenly;
     gap: 20px;
@@ -142,15 +163,30 @@ header{
 }
 .contain1 p{
     color: white;
+    font-size: 20px;
 }
 .contain1 p:nth-of-type(1){
     font-weight: bold;
 }
 .contain2 button{
+    padding: 10px 50px 10px 50px;
     background-color: #3882f6;
     color: white;
     border-color: white;
+    border-style:solid;
+    border-radius: 10px;
+    font-size: 20px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 132px;
+    background-color: #1f2937;
+
 }
 footer p{
     text-align: center;
+    font-size: 24px;
+    color: white;
 }
